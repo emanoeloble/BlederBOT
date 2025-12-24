@@ -30,7 +30,7 @@ if(interaction.user.bot || !interaction.guild) return;
 
 client.on("ready", () => {
 client.user.setPresence({
-  activities: [{ name: "Discord.js V14", type: 5 }],
+  activities: [{ name: "BlederBOT Online!", type: 5 }],
   status: "online",
 });
 
